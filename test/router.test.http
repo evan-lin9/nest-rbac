@@ -1,0 +1,13 @@
+POST http://localhost:4000/api/v1/users
+Content-Type: application/json
+
+{
+  "username": "superAdmin",
+  "password": "Aa123456"
+}
+
+###
+GET http://localhost:4000/api/v1/users
+Accept: application/json
+
+###
